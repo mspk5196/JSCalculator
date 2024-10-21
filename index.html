@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+
+        <h1><center><b>Calculator</b></center></h1>
+
+        <link rel="stylesheet" href="stylec.css">
+        <script src="logic.js" defer></script>
+    </head>
+    
+
+    <body>
+    <center>
+    <div>
+        <table>
+            <tr>
+                <th colspan="4"><input type="text" class="in" id="text"></th>
+            </tr>
+            <tr>
+                <td>
+                    <button id="clear" value="Clear" onclick="clearText()">
+                        C
+                    </button>
+                </td>
+                <td>
+                    <button id="divi" value="/" onclick="appendtotext('/')">
+                        /
+                    </button>
+                </td>
+                <td>
+                    <button id="multi" value="*" onclick="appendtotext('*')">
+                        *
+                    </button>
+                </td>
+                <td>
+                    <button id="minus" value="-" onclick="appendtotext('-')">
+                        -
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="seven" value="7" onclick="appendtotext('7')">
+                        7
+                    </button>
+                </td>
+                <td>
+                    <button id="eight" value="8" onclick="appendtotext('8')">
+                        8
+                    </button>
+                </td>
+                <td>
+                    <button id="nine"  value="9" onclick="appendtotext('9')">
+                        9
+                    </button>
+                </td>
+                <td rowspan="2">
+                    <button id="plus" value="+" onclick="appendtotext('+')">
+                        +
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="four" value="4" onclick="appendtotext('4')">
+                        4
+                    </button>
+                </td>
+                <td>
+                    <button id="five" value="5" onclick="appendtotext('5')">
+                        5
+                    </button>
+                </td>
+                <td>
+                    <button id="six" value="6" onclick="appendtotext('6')">
+                        6
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="one" value="1" onclick="appendtotext('1')">
+                        1
+                    </button>
+                </td>
+                <td>
+                    <button id="two" value="2" onclick="appendtotext('2')">
+                        2
+                    </button>
+                </td>
+                <td>
+                    <button id="three" value="3" onclick="appendtotext('3')">
+                        3
+                    </button>
+                </td>
+                <td rowspan="2">
+                    <button id="enter" value="Enter" onclick="cal()">
+                        =
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button id="zero" value="0" onclick="appendtotext('0')">
+                        0
+                    </button>
+                </td>
+                <td>
+                    <button id="dot" value="." onclick="appendtotext('.')">
+                        .
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </center>
+    </body>
+</html>

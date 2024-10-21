@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: aquamarine;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+div{
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+button{
+    background-color: aquamarine;
+    height: 50px;
+    width:50px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: rgb(127, 252, 129);
+}
+#plus,#enter{
+    height:100px;
+}
+#enter:hover,#clear:hover{
+    background-color: rgb(248, 69, 69);
+}
+#dot:hover{
+    background-color: rgb(127, 162, 252);
+}
+#minus:hover,#plus:hover,#multi:hover,#divi:hover{
+    background-color: rgb(252, 244, 127);
+}
+#zero{
+    width:100px;
+}
+.in{
+    font-size: 18px;
+    border-radius: 25px;
+    height:100px;
+    width:200px;
+    text-align: end;
+}
+
+
