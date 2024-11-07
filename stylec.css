@@ -54,6 +54,9 @@ button:hover{
 #zero{
     width:100px;
 }
+#dot{
+    font-size: 25px;
+}
 .in{
     font-size: 18px;
     border-radius: 25px;
