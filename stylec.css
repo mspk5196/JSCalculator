@@ -30,6 +30,7 @@ button{
     height: 50px;
     width:50px;
     border-radius: 15px;
+    border-color: #000000;
 }
 button:hover{
     background-color: rgb(127, 252, 129);
@@ -37,6 +38,9 @@ button:hover{
 }
 #plus,#enter{
     height:100px;
+}
+#clear{
+    background-color: rgba(255, 101, 101, 0.948);
 }
 #enter:hover,#clear:hover{
     background-color: rgb(248, 69, 69);
