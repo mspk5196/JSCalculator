@@ -2,7 +2,9 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: aquamarine;
+    background-image: url("cal.jpg");
+    background-position: center;
+    background-size: cover;
     color: #333;
 }
 
@@ -19,16 +21,19 @@ header h1 {
 
 div{
     border-radius: 25px;
-    background-color: aliceblue;
+    width: fit-content;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.27);
 }
 button{
-    background-color: aquamarine;
+    background-color: rgba(0, 0, 0, 0.033);
     height: 50px;
     width:50px;
     border-radius: 15px;
 }
 button:hover{
     background-color: rgb(127, 252, 129);
+    cursor: pointer;
 }
 #plus,#enter{
     height:100px;
